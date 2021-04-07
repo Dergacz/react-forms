@@ -1,0 +1,12 @@
+.select .main{
+    border: 1px black solid;
+    display: inline-block;
+    min-width: 40px;
+    min-height: 20px;
+}
+
+.select .items {
+    position: absolute;
+    border: 1px black solid;
+}
+
