@@ -26,9 +26,10 @@ export const WithValue = () => {
 
 
 export const WithoutValue = () => {
-    const [value, setValue] = useState()
+    const [value, setValue] = useState(null)
     return (
         <ControledSelected
+            value={value}
             onChange={setValue}
             items={[
                 {value: "1", title: "Minsk"},

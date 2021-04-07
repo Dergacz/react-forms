@@ -10,3 +10,7 @@
     border: 1px black solid;
 }
 
+.item.selected {
+    background-color: dodgerblue;
+    color: white;
+}
