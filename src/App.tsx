@@ -7,6 +7,7 @@ import Rating from "./components/rating/Rating";
 import {OnOff} from "./components/OnOFF/OnOff";
 import {AccordionControlled} from "./components/Accordion/AccordionControlled";
 import {ControledSelected} from "./components/input/Selected";
+import {Clock} from "./components/Clock/Clock";
 
 function App() {
     let [ratingValue, setRatingValue] = useState<RatingType>(0);
@@ -36,6 +37,7 @@ function App() {
             <ControlledOnOff on={controlOn} onChange={setControlOn}/>
             <hr/>
             {/*<ControledSelected value={} onChange={} items={}*/}
+            <Clock/>
 
 
         </div>
